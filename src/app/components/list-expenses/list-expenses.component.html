@@ -1,0 +1,10 @@
+<a routerLink="/addexpense">Add Expense</a>
+
+<div *ngFor="let expense of expenses">
+
+    <h3>{{expense.expense}}</h3>
+    <p>{{expense.amount | currency: 'PKR'}}</p>
+    <a routerLink="/editexpense/{{expense.id}}">Edit</a>
+    
+
+</div>

@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-first-project';
 }
+
+// <html>
+// <body>
+// <app-root/>
+// </body>   
+// </html>
